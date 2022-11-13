@@ -219,7 +219,9 @@ Dart uses the " bool " statement to represent true and false values. You can als
 |  !=      | Different                   |
 |  &&      | AND                         |
 |  II      | OR                          |
-|
+
+
+Example : 
 
 ```dart
 String papel = "ADMIN";
