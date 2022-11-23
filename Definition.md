@@ -237,3 +237,96 @@ if(papel == "ADMIN" && loggin ) {
 }//end if
 ```
 
+</br>
+</br>
+</br>
+
+### <b> Functions </b>
+
+
+<p p style = "font-family:courier,arial,helvetica ">
+ 
+ 
+Functions are a set of instructions that take input, perform specific operations, and produce output. are created when
+ a program must repeatedly execute several instructions that will occur
+ repeatedly. They facilitate the division of program complexity into smaller subgroups, increasing code reuse.
+
+</p>
+
+  Example : 
+
+
+
+```dart
+  return_type  function_name( parameters){
+    
+     //Body of function
+     return value;
+
+  }//end function
+```
+
+<p p style = "font-family:courier,arial,helvetica ">
+ 
+  - <strong>function_name</strong> = 
+Defined name for the function 
+  - <strong>return_type</strong> = Define the type of data that will be in the output of the function
+  - <strong>return</strong> = Value to be returned
+
+</p>
+
+</br>
+
+<p p style = "font-family:courier,arial,helvetica ">
+ 
+Call instruction 
+</p>
+
+```dart
+   function_name(argument_list);
+```
+<p p style = "font-family:courier,arial,helvetica ">
+ 
+  - <strong>function_name</strong> = Defined name for the function 
+  - <strong>argument_list</strong> = Parameters that will be sent to the function
+</p>
+
+```dart
+ int add ( int c, int b){
+    return c+b;
+ }//end function add
+
+void main(){
+  
+  // Calling the function
+  int a = add(10,20);
+
+  // Print the function return
+   print(a);
+
+ }//end main
+
+```
+
+Function without parameter and return value.
+
+<p p style = "font-family:courier,arial,helvetica ">
+Functions can also have no value or return parameters.
+</p>
+
+```dart
+
+void func_no_name(){
+
+  print("This function has no type or return" );
+
+}//end func_no_name
+
+void main(){
+   
+  //Calling the function
+   func_no_name();
+
+ }//end main
+
+```
