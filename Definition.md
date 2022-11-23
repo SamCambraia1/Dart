@@ -275,10 +275,7 @@ Defined name for the function
 
 </p>
 
-</br>
-
 <p p style = "font-family:courier,arial,helvetica ">
- 
 Call instruction 
 </p>
 
@@ -291,6 +288,9 @@ Call instruction
   - <strong>argument_list</strong> = Parameters that will be sent to the function
 </p>
 
+</br>
+
+Example : 
 ```dart
  int add ( int c, int b){
     return c+b;
@@ -307,9 +307,8 @@ void main(){
  }//end main
 
 ```
-
-Function without parameter and return value.
-
+</br>
+</br>
 <p p style = "font-family:courier,arial,helvetica ">
 Functions can also have no value or return parameters.
 </p>
@@ -330,3 +329,4 @@ void main(){
  }//end main
 
 ```
+
