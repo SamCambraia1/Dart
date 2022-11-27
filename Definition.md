@@ -241,7 +241,7 @@ if(papel == "ADMIN" && loggin ) {
 </br>
 </br>
 
-### <b> Functions </b>
+# <b> Functions </b>
 
 
 <p p style = "font-family:courier,arial,helvetica ">
@@ -329,4 +329,66 @@ void main(){
  }//end main
 
 ```
+
+### Named arguments 
+
+
+<p p style = "font-family:courier,arial,helvetica ">
+
+Named arguments do not require matching the order of the arguments to the parameters in the parameter lists of called methods. The argument for each parameter can be specified by the parameter name.
+
+
+A printing function can be called by sending arguments by position, in the order defined by the function.
+
+</p>
+
+~~~dart
+// orderNum 31  
+// productName Red Mug
+// sellerName Gift Shop 
+
+printOrderDetails("Gift Shop", 31, "Red Mug");
+~~~
+
+<p p style = "font-family:courier,arial,helvetica ">
+
+Without having to specify the order, but passing the names correctly, you can send the arguments in any order.
+</p>
+
+```dart
+// orderNum 31  
+// productName Red Mug
+// sellerName Gift Shop 
+
+
+void printOrderDetails(orderNum: 31, productName: "Red Mug", sellerName: "Gift Shop");
+
+OR 
+
+void printOrderDetails(productName: "Red Mug", sellerName: "Gift Shop", orderNum: 31);
+
+
+
+``` 
+</br>
+</br>
+
+### Opitional arguments
+
+
+
+<p p style = "font-family:courier,arial,helvetica ">
+
+
+Optional parameters are defined at the end of the parameter list, after all required parameters have been declared.
+
+Each optional parameter has a default value as part of it's definition. If no arguments are sent for this parameter, the default value is used.
+
+Use square brackets to define them
+</p>
+
+~~~dart 
+
+void exampleMethod( int require_arg, [int optitional_arg])
+~~~
 
